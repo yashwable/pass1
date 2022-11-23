@@ -1,0 +1,8 @@
+	start	300
+up	add	areg,B
+A	ds	3
+	mover	breg,A
+	movem	creg,A
+	sub	creg,B
+B	DS	5
+	add	arg,B
